@@ -37,18 +37,18 @@
                 <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="paginas/Cardapio.jsp" > Cardápio </a>
+                            <a class="nav-link" href="paginas/cardapio.jsp"> Cardápio </a>
                         </li>
 
                         <c:if test="${empty usuario}">
                             <li class="nav-item">
-                                <a class="nav-link" href="paginas/LoginCadastro.jsp" > Fazer login </a>
+                                <a class="nav-link" href="paginas/loginCadastro.jsp" > Fazer login </a>
                             </li>
                         </c:if>
 
                         <c:if test="${not empty usuario}">
                             <li class="nav-item">
-                                <a class="nav-link" href="paginas/AreaUsuario.jsp" > Sua área </a>
+                                <a class="nav-link" href="paginas/areaUsuario.jsp" > Sua compras </a>
                             </li>
                         </c:if>
                     </ul>
@@ -152,7 +152,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="container-fluid">
-                            <iframe src="paginas/Carrinho.jsp" style="width: 100%"></iframe>
+                            <iframe src="paginas/carrinho.jsp" style="width: 100%"></iframe>
                         </div>
                     </div>
                 </div>
