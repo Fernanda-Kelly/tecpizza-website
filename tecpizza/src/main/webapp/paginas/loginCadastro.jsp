@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-        <link rel="icon" href="../imgs/logo_final.png">
+        <link rel="icon" href="../img/logotipo.png">
         <link rel="stylesheet" type="text/css" href="../css/estilo_principal.css"/>
         <link rel="stylesheet" type="text/css" href="../_bootstrap/css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="../_bootstrap-icons/bootstrap-icons.css" />
