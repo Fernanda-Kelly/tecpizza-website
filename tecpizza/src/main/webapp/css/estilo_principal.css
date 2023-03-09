@@ -1,0 +1,33 @@
+/*----- CONFIGURAÇÕES GERAIS -----*/
+
+/*Fonte family site*/
+*{
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+/*----- FIM - CONFIGURAÇÕES GERAIS -----*/
+
+/*----- INICIO - index.jsp -----*/
+
+/*carrossel de imagens*/
+.container-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner img {
+    height: 500px;
+    filter: brightness(50%);
+}
+
+/*container principal*/
+#backgournd-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    background: url("../img/plano-de-fundo.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*----- FIM - index.jsp -----*/
